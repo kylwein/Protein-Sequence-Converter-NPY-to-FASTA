@@ -3,7 +3,7 @@ import os
 
 def convert_to_fasta(input_npy_file=None):
     if input_npy_file is None:
-        input_npy_file = "bs_test_protein.npy"
+        input_npy_file = "protein_sequences.npy" #CHANGE THIS TO YOUR FILE NAME
 
     if not os.path.exists(input_npy_file):
         print(f"Error: File '{input_npy_file}' not found.")
