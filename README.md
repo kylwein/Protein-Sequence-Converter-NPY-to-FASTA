@@ -13,5 +13,24 @@ This Python script converts protein sequences stored in a NumPy file (.npy) into
 3. **Run the Script:**
    Simply execute the `npy-to-fasta.py` script. It will automatically convert the protein sequences in your NumPy file to FASTA format and save the output in the same directory.
 
+   
+
 ```bash
 python npy-to-fasta.py
+```
+
+## Multiple Sequence Separator
+
+Additionally, this repository now includes a new folder called `SEPARATOR`. It contains a script that separates FASTA files with multiple sequences into individual files. The usage of this script is identical to that of the CONVERTER script.
+
+### Usage
+
+#### Prepare Your FASTA Files
+
+Place your FASTA files with multiple sequences in the `SEPARATOR` folder.
+
+#### Run the Script
+
+Execute the `fasta-separator.py` script in the `SEPARATOR` folder. It will automatically separate each sequence into individual files and save them in the same directory.
+
+
